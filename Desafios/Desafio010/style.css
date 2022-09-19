@@ -1,0 +1,163 @@
+@charset "UTF8";
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color:#4DFF82;
+    margin: 0px;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom, #00FF4C, #268041);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    margin: -10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+main {
+    background-color: white;
+    margin: 11px auto;
+    padding:1px 20px;
+    max-width: 950px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;   
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color:#3edb6d;
+}
+
+.hheader {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pheader {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulo {
+    font-family: "Android", Arial, Helvetica, sans-serif;
+    color: #268041;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2 {
+    font-family: "Android", Arial, Helvetica, sans-serif;
+    color: #268041;
+    background-image: linear-gradient(to right, rgba(108, 245, 108, 0.603), white);
+}
+
+.cor {
+    color: #268041;
+    font-weight: bold;
+}
+
+picture {
+    margin: 55px;
+    padding: 20px;
+    width: 100%;
+}
+
+p#final {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00CC3D;
+    text-indent: 0%;
+    margin: -9px;
+    padding: 12px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bolder;
+}
+
+div#div0 {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #65ff93;
+}
+
+div#div1 {
+    display: inline-block;
+    background-color: #65ff93;
+    text-align: left;
+    height: 200px;
+    width: 300px;
+}
+
+div#div2 {
+    display: inline-block;
+    background-color: #65ff93;
+    text-align: center;
+    height: 155px;
+    width: 200px;
+}
+
+div#div3 {
+    display: inline-block;
+    background-color: l#65ff93;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #268041;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    margin: 50px 1px 1px -20px;
+    padding: 1px 40px 1px 1px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    width: 100%;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+}
+
+.fim {
+    font-weight: bolder;
+    color: white;
+}
+
+.lista {
+    text-decoration: underline;
+}
+
+.link {
+    color: #268041;
+    font-weight: bold;
+    background-color: #5dfa72;
+}
+
+a {
+    text-decoration: none;
+}
+
+
